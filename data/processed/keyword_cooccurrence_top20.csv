@@ -1,0 +1,21 @@
+﻿,food waste,suboptimal food,suboptimal food products,sustainability,consumer choice,anthropomorphism,ugly food,purchase intention,imperfect produce,aesthetics,sustainable consumption,misshapen produce,wtp,quality perception,suboptimal produce,environmental concern,consumer behaviour,retail,consumer food waste,imperfect food
+food waste,0,15,10,4,7,3,4,4,3,3,3,2,3,2,1,2,3,2,2,2
+suboptimal food,15,0,0,1,3,0,1,2,0,0,0,0,1,2,0,1,1,1,0,0
+suboptimal food products,10,0,0,1,3,0,0,1,0,0,0,0,0,0,0,0,0,1,2,1
+sustainability,4,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0
+consumer choice,7,3,3,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1
+anthropomorphism,3,0,0,0,1,0,3,2,1,0,0,1,0,0,0,1,0,1,0,1
+ugly food,4,1,0,0,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+purchase intention,4,2,1,0,0,2,2,0,0,0,0,1,0,0,0,2,0,0,0,0
+imperfect produce,3,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+aesthetics,3,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+sustainable consumption,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+misshapen produce,2,0,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+wtp,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+quality perception,2,2,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+suboptimal produce,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+environmental concern,2,1,0,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0
+consumer behaviour,3,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+retail,2,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+consumer food waste,2,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+imperfect food,2,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
