@@ -1,7 +1,34 @@
 # uglyfood-thesis
 
-This repository contains the data, scripts, and outputs for a master's thesis investigating how anthropomorphic framing affects purchase intention toward cosmetically imperfect ("ugly") produce among Chinese consumers. The project has two components. The first is an NLP-driven systematic literature review: 84 peer-reviewed papers published between 2017 and 2026 were processed through a pipeline combining sentence-transformer embeddings (all-MiniLM-L6-v2), UMAP dimensionality reduction, and BERTopic topic modelling to map the thematic structure of the ugly food research field and identify gaps at the corpus level. The second component is a between-subjects experiment (N = 200) in which participants saw either an anthropomorphic or a descriptive label applied to an image of imperfect apples. The design tested whether sympathy mediates the effect of framing on purchase intention (PROCESS Model 4), and whether food waste awareness moderates that mediation at the sympathy-to-intention path (PROCESS Model 14).
-The scripts/ directory is organised by task. The NLP pipeline scripts handle corpus ingestion, abstract embedding, UMAP projection, and BERTopic model fitting, along with the bibliometric analyses that produced the keyword frequency, co-occurrence network, and geographic distribution figures. The experiment scripts cover data cleaning and exclusion (completion-time filtering, attention checks), scale reliability checks, the main inferential analyses in Python using pingouin and statsmodels, and the PROCESS-equivalent moderated mediation bootstrap procedure. Visualisation scripts generate all figures in the thesis using matplotlib with a fixed colour palette. A separate scripts/office/ folder contains utilities for unpacking, editing, and repacking .docx files used during thesis document production.
+## Overview
+
+This repository contains the data, scripts, and outputs for a master's thesis investigating how anthropomorphic framing affects purchase intention toward cosmetically imperfect ("ugly") produce among Chinese consumers.
+
+The project consists of two components:
+
+- **NLP-driven systematic literature review**:  
+  84 peer-reviewed papers (2017–2026) were processed using sentence-transformer embeddings (all-MiniLM-L6-v2), UMAP dimensionality reduction, and BERTopic topic modelling. This pipeline maps the thematic structure of the ugly food research field and identifies research gaps at the corpus level.
+
+- **Between-subjects experiment (N = 200)**:  
+  Participants viewed either an anthropomorphic or a descriptive label applied to imperfect apples. The design tests whether sympathy mediates the effect of framing on purchase intention (PROCESS Model 4), and whether food waste awareness moderates this mediation along the sympathy-to-intention path (PROCESS Model 14).
+
+---
+
+## Repository Structure
+
+The `scripts/` directory is organised by task:
+
+- **NLP pipeline scripts**:  
+  Handle corpus ingestion, abstract embedding, UMAP projection, and BERTopic modelling. These scripts also generate bibliometric outputs, including keyword frequency, co-occurrence networks, and geographic distribution figures.
+
+- **Experiment analysis scripts**:  
+  Cover data cleaning and exclusion (completion-time filtering, attention checks), scale reliability testing, and inferential analysis using `pingouin` and `statsmodels`. Moderated mediation is implemented via a PROCESS-equivalent bootstrap procedure.
+
+- **Visualisation scripts**:  
+  Generate all figures using `matplotlib` with a fixed colour palette.
+
+- **scripts/office/**:  
+  Utilities for unpacking, editing, and repacking `.docx` files used in thesis document production.
 
 
 ## Repository structure
